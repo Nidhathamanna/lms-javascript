@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="heading">
+        cybersqare
+    </h1>
+    <button onclick="color()">
+        click here</button>
+    <button onclick="rem()">
+        click next
+
+    </button>
+    <p class="content">
+        learn coding through cybersquare
+
+    </p>
+    <p class="content">
+        best platform to learn coding
+
+    </p>
+    <!-- <script>
+        h = document.getElementById("heading");
+        console.log(h);
+        p = document.getElementsByClassName("content");
+        console.log(p)
+    </script> -->
+    <script>
+        function color() {
+            document.getElementById("heading").style.color = "red"
+        }
+        function rem() {
+            document.getElementById("heading").innerHTML = "hello"
+        }
+    </script>
+</body>
+
+</html>

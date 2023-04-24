@@ -1,0 +1,217 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex {
+            display: flex;
+            background-color: white;
+            padding: 20px;
+            flex-wrap: nowrap;
+
+        }
+
+        .x {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+
+        }
+
+        .b {
+            color: rgb(151, 111, 111);
+            margin: 10px;
+            padding: 10px;
+
+        }
+
+        .c {
+            color: rgb(186, 173, 173);
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .d {
+            color: rgb(69, 67, 67);
+            margin: 10px;
+            padding: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .x {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto;
+        }
+
+        .y {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            width: 100%;
+            text-align: center;
+
+        }
+
+        .i {
+            border-radius: 50%;
+            height: 600px;
+            width: 600px;
+            margin-top: 10px;
+
+        }
+
+
+
+        .r {
+            padding: 10px;
+            margin: 10px;
+            width: 400px;
+            height: 400px;
+            position: relative;
+            right: 500px;
+        }
+
+        /* h1 {
+            position: relative;
+            left: 300px;
+        } */
+        .desc {
+            text-align: center;
+        }
+
+
+        #text {
+            font-size: medium;
+            font-weight: normal;
+            margin-left: 1%;
+
+        }
+
+        .grid {
+            padding: 5%;
+            display: grid;
+            grid-template-columns: 50% auto;
+            align-items: center;
+        }
+
+        .grid2 {
+            padding: 5%;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            align-items: center;
+
+        }
+
+        .grid3 {
+            padding: 5%;
+            display: grid;
+            align-items: center;
+            grid-template-columns: 50% auto;
+        }
+
+        .proimg {
+            border-radius: 50%;
+        }
+        nav{
+
+            background-color: black;
+            width: 100%;
+            height: 75px;
+        }
+    </style>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script> -->
+</head>
+
+<body> <nav>
+    <div class="flex">
+        <div class="x">
+            work
+        </div>
+        <div class="x">
+            About
+        </div>
+        <div class="x">
+            Resume
+        </div>
+        <div class="x">
+            Contact
+        </div>
+    </div>
+</nav>
+  
+
+    <div class="grid2">
+        <div class="prodesc">
+
+            <h2 id="jobprof">UX Design Lead</h2>
+            <h1 id="name">Augusto Garcia</h1>
+
+            <h4 id="jobdesc">A creative, multi-faceted professional with strong interpersonal skills who provides
+                measurable value by leveraging creativity and teamwork to produce exceptional business outcomes.</h4>
+
+        </div>
+        <div class="profimg">
+            <img src="https://storage.googleapis.com/uxfolio/5bcd0d4b5081110004dc2ce0/portfolios/8830145e-d1d8-47d1-9831-8721edc4dc9d/0l71IEnpUihXQDaI.png"
+                alt="" srcset="" class="proimg" width="460px" height="460px">
+
+        </div>
+
+    </div>
+
+
+    <div class="grid">
+        <div class="img">
+            <img src=https://storage.googleapis.com/uxfolio/5bcd0d4b5081110004dc2ce0/5c041a02b66f880004b8e4c2/KJXpLgs4HeWdAcTj.png
+                height="650px" width="100%">
+
+        </div>
+
+        <div class="desc">
+            <h1>
+                Payment Estimator
+            </h1>
+
+            <h1 id="text"> Feature Redesign, Ux Research,User testing, UI Design</h1>
+        </div>
+
+        <div class="desc" style="margin-right: 25%;">
+            <h1>
+                Sign Contracts
+            </h1>
+
+            <h1 id="text"> Ux Research,User testing, UI Design</h1>
+        </div>
+        <div class="img">
+            <img src=https://storage.googleapis.com/uxfolio/5bcd0d4b5081110004dc2ce0/5c041a02b66f880004b8e4c2/KJXpLgs4HeWdAcTj.png
+                height="650px" width="100%">
+
+        </div>
+        <div class="grid3">
+            <div class="img">
+                <img src=https://storage.googleapis.com/uxfolio/5bcd0d4b5081110004dc2ce0/5c041a02b66f880004b8e4c2/KJXpLgs4HeWdAcTj.png
+                    height="650px" width="650px">
+
+            </div>
+            <div class="desc" style="margin-left: 600px;">
+                <h1>
+                    Payment Estimator
+                </h1>
+
+                <h1 id="text"> Feature Redesign, Ux Research,User testing, UI Design</h1>
+
+
+            </div>
+
+        </body>
+
+</html>

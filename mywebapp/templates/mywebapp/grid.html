@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .a{
+            display: grid;
+            grid-template-rows: auto 30px auto;
+            grid-template-columns: 40% auto auto;
+            background-color: blue;
+            grid-gap: 10px;
+            padding: 10px;
+        }
+        .b{
+            background-color: white;
+            padding: 25px;
+            text-align: center;
+            margin: 5px;
+        } */
+        .b{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 10px;
+        }
+        .a{
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- fbdfb
+    <div class="a">
+        <div class="b">
+            hello
+        </div>
+        <div class="b">
+            hello
+        </div>
+        <div class="b">
+            hello
+        </div>
+        <div class="b">
+            hello
+        </div>
+        <div class="b">
+            hello
+        </div>
+        <div class="b">
+            hello
+        </div>
+        <div class="b">
+            hello
+        </div>
+
+    </div> -->
+    <div class="b">
+        <div class="a">
+            <img src="{% static 'images/1.jpg' %}" width="100%" height="100%">
+        </div>
+        <div class="a">
+            <img src="{% static 'images/1.jpg' %}" width="100%" height="100%">
+        </div>
+        <div class="a">
+            <img src="{% static 'images/1.jpg' %}" width="100%" height="100%">
+        </div>
+    </div>
+   
+    
+    
+</body>
+
+</html>

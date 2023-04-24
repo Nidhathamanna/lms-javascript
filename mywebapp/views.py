@@ -1,0 +1,72 @@
+from django.shortcuts import render
+
+# Create your views here.
+
+def home(request):
+    return render(request,'mywebapp/mywebapp.html')
+def index(request):
+    return render(request,'mywebapp/grid.html')
+def flex(request):
+    return render(request,'mywebapp/flex.html')
+def nav(request):
+    return render(request,'mywebapp/nav.html')
+def boot(request):
+    return render(request,'mywebapp/bootstrap.html')
+def resp(request):
+    return render(request,'mywebapp/responsive.html')
+def card(request):
+    return render(request,'mywebapp/card.html')
+def port(request):
+    return render(request,'mywebapp/portfolio.html')
+def respo(request):
+    return render(request,'mywebapp/responsive2.html')
+def mas1(request):
+    return render(request,'mywebapp/master1.html')
+def mas2(request):
+    return render(request,'mywebapp/master2.html')
+def tab1(request):
+    return render(request,'mywebapp/table1.html')
+def jav(request):
+    return render(request,'mywebapp/javascript.html')
+def grd(request):
+    return render(request,'mywebapp/gridnew.html')
+def portfo(request):
+    return render(request,'mywebapp/portfo.html')
+def scp(request):
+    return render(request,'mywebapp/scope.html')
+def wrk1(request):
+    return render(request,'mywebapp/work1.html')
+def btt(request):
+    return render(request,'mywebapp/boot.html')
+def loop(request):
+    return render(request,'mywebapp/loop.html')
+def inoff(request):
+    return render(request,'mywebapp/forin&foroff.html')
+def arr(request):
+    return render(request,'mywebapp/array.html')
+def js1(request):
+    return render(request,'mywebapp/jswork1.html')
+def js2(request):
+    return render(request,'mywebapp/jswork2.html')
+def js3(request):
+    return render(request,'mywebapp/jswork3.html')
+def js4(request):
+    return render(request,'mywebapp/jswork4.html')
+def dom(request):
+    return render(request,'mywebapp/dom.html')
+def dom2(request):
+    return render(request,'mywebapp/dom2.html')
+def calc(request):
+    return render(request,'mywebapp/calculator.html')
+def js5(request):
+    return render(request,'mywebapp/jswork5.html')
+def viv(request):
+    return render(request,'mywebapp/viva.html')
+def js6(request):
+    return render(request,'mywebapp/jswork6.html')
+def js7(request):
+    return render(request,'mywebapp/jswork7.html')
+def js8(request):
+    return render(request,'mywebapp/jswork8.html')
+def js9(request):
+    return render(request,'mywebapp/jswork9.html')

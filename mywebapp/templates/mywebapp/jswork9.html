@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn" onmouseover="mouse_over" onmouseout="mouse_out" >
+        click here
+
+    </button>
+    <script>
+        var a=document.getElementById('btn')
+        a.addEventListener("click",fun1)
+        a.addEventListener("mouse_over",mouse_over)
+        a.addEventListener("mouse_out",mouse_out)
+
+        function fun1(){
+            alert ('this is a message')
+        }
+        function mouse_over(){
+            alert('mouse_over')
+
+        }
+        function mouse_out(){
+            alert('mouse_out')
+            
+
+        }
+    </script>
+</body>
+</html>

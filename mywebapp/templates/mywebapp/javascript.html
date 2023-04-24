@@ -1,0 +1,138 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="{% static 'js/javascript.js' %}"></script>
+</head>
+<body>
+ <!-- <button onclick="alert('hello')">
+    click me
+ </button> -->
+ <!-- <script>
+alert('internal')
+ </script>
+  -->
+  <!-- <script>
+    a='hi'
+    alert(a)
+  </script>
+  <script>
+    function b(){
+        c='function call'
+        alert(c)
+    }
+  </script>
+  <button onclick="b()">
+    click here
+  </button>
+  <script>
+    function d(){
+        document.write('<h1>hai</h1>')  
+    }
+    d()
+   
+  </script>
+  <script>
+ console.log('hello world')
+  </script>
+   -->
+   <!-- <script>
+    a=10
+    b='hi'
+    c=true
+    d=[1,2,3,'hello']
+    console.log('a is',typeof(a))
+
+
+   </script> -->
+   <!-- <script>
+    a=[1,2,'hello there',4,5]
+    a[2]='hi there'
+    a.push('banana')
+    a.pop()
+    a.splice(1,1,'hoi')
+    console.log(a)
+    console.log(a[2])
+    console.log('length of the array is',a.length)
+   </script>
+   <script>
+    b=[1,2,6,8,0,4]
+    console.log(b.sort())
+   </script> -->
+<!-- <script>
+    a=prompt('enter your name')
+    console.log('your name is',a)
+    alert('your name is '+a)
+    confirm('do you want to continue')
+</script> -->
+<!-- <script>
+    a=5
+    b=2
+    addition=a+b
+    subtraction=a-b
+    multiplication=a*b
+    division=a/b
+    modulus=a%b
+    console.log(a,'+',b,'=',addition)
+    console.log(a,'-',b,'=',subtraction)
+    console.log(a,'*',b,'=',multiplication)
+    console.log(a,'/',b,'=',division)
+    console.log(a,'%',b,'=',modulus)
+</script> -->
+<!-- <script>
+    a=prompt('enter a number')
+    b=prompt('enter second number')
+    parseInt(a)
+    
+    alert(parseInt(a)+parseInt(b))
+    </script> -->
+<button onclick="addition()">
+    +
+</button>
+<script>
+    num1=parseInt(prompt('enter a first number'))
+    num2=parseInt(prompt('enter a second number'))
+    function addition(){
+        alert(num1+num2)
+    }
+</script>
+<button onclick="subtraction()">
+    -
+</button>
+<script>
+    function subtraction(){
+        alert(num1-num2)
+    }
+</script>
+<button onclick="multiplication()">
+    *
+</button>
+<script>
+    function multiplication(){
+        alert(num1*num2)
+    }
+</script>
+</script>
+<button onclick="division()">
+    /
+</button>
+<script>
+    function division(){
+        alert(num1/num2)
+    }
+</script>
+</script>
+<button onclick="modulus()">
+    %
+</button>
+<script>
+    function modulus(){
+        alert(num1%num2)
+    }
+</script>
+</body>
+</html>

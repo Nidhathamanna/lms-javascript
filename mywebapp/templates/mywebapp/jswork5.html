@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #q{
+            height: 100px;
+            width: 100px;
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <select name="colors" id="a" onchange="changebgcolor()">
+        <option value="select color">
+            select color
+        </option>
+        <option value="red">
+            red
+        </option>
+        <option value="blue">
+            blue
+        </option>
+        <option value="green">
+            green
+        </option>
+    </select>
+    <div id="q">
+
+    </div>
+    <!-- <script>
+        function changebgcolor(){
+            var color=document.getElementById('a').value
+            var bgcolor=document.getElementById('q')
+            if(color=='blue'){
+                bgcolor.style.backgroundColor='blue'
+            }
+            else if(color=='red'){
+                bgcolor.style.backgroundColor='red'
+            }
+            else if(color=='green'){
+                bgcolor.style.backgroundColor='green'
+            }
+
+        }
+    </script> -->
+    <script>
+        function changebgcolor(){
+
+            document.getElementById('q').style.backgroundColor=document.getElementById('a').value
+
+        }
+    </script>
+</body>
+</html>

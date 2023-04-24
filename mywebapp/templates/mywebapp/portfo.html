@@ -1,0 +1,268 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        div {
+            /* border: 2px solid red; */
+        }
+
+        .container {
+            background: linear-gradient(hsl(350, 4%, 32%), #ffffff);
+            display: flex;
+            flex-direction: row;
+            height: 75px;
+            justify-content: space-evenly;
+            border: 1px;
+            align-items: center;
+        }
+
+        .item1 {
+            justify-content: left;
+        }
+
+        .grid1 {
+            display: grid;
+            grid-template-columns: 20% 80%;
+            font-size: larger;
+            color: grey;
+            padding: 80px;
+        }
+
+        .grid2 {
+            display: grid;
+            grid-template-columns: auto auto;
+            align-items: center;
+
+        }
+
+        .grid3 {
+            display: grid;
+            grid-template-columns: auto auto;
+            align-items: center;
+        }
+        .grid4 {
+            display: grid;
+            grid-template-columns: auto auto;
+            align-items: center;
+        }
+        .grid5 {
+            display: grid;
+            grid-template-columns: auto auto;
+            align-items: center;
+        }
+
+        .item8 {
+            padding-left: 10%;
+        }
+
+        .img1 {
+            padding-left: 0,
+                align-items: right;
+            border-radius: 50%;
+            position: absolute;
+            right: 150px;
+        }
+
+        .img2 {
+            padding-left: 10%;
+            align-items: center;
+
+        }
+        .img3 {
+            padding-left: 700px;
+            padding-top: 60px;
+        }
+        .img4 {
+            padding-top: 60px;
+            padding-left: 10%;
+            align-items: center;
+        }
+        .img5 {
+            padding-top: 60px;
+            padding-left: 700px;
+            align-items: center;
+        }
+
+        #txt {
+            position: relative;
+            top: 2px;
+
+        }
+
+        h1 {
+            font-weight: bold;
+            font-size: 6em;
+        }
+
+        .item10 {
+            font-size: 4em;
+            font-weight: bold;
+            color: grey;
+            position: absolute;
+            right: 200px;
+        }
+        .item12 {
+            font-size: 4em;
+            font-weight: bold;
+            color: grey;
+            position: absolute;
+            left: 200px;
+        }
+        .item15 {
+            font-size: 4em;
+            font-weight: bold;
+            color: grey;
+            position: absolute;
+            right: 200px;
+        }
+        .item16 {
+            font-size: 4em;
+            font-weight: bold;
+            color: grey;
+            position: absolute;
+            left: 200px;
+        }
+        
+
+        #ab {
+            position: absolute;
+            left: -50px;
+            font-size: .3em;
+        }
+
+        #cd {
+            position: absolute;
+            left: 50px;
+            font-size: .3em;
+        }
+        #ef {
+            position: absolute;
+            left: -50px;
+            font-size: .3em;
+        }
+        #gh {
+            position: absolute;
+            left: -50px;
+            font-size: .3em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item1">
+            Work
+        </div>
+        <div class="item2">
+            About
+        </div>
+        <div class="item3">
+            Resume
+        </div>
+        <div class="item4">
+            Contact
+        </div>
+        <div class="item5">
+            Linkedin
+        </div>
+        <div class="item6">
+            Twitter
+        </div>
+        <div class="item7">
+            Instagram
+        </div>
+    </div>
+    <br><br>
+    <div class="grid1">
+        <div class="item8">
+            UX Design Lead
+            <h1>
+                Augusto
+                <br>
+                Garcia
+            </h1>
+            <h3 id="txt">
+                A creative, multi-faceted professional with strong interpersonal skills who provides measurable value by
+                leveraging creativity and teamwork to produce exceptional business outcomes.
+            </h3>
+        </div>
+        <div class="img">
+            <img src="https://storage.googleapis.com/uxfolio/5bcd0d4b5081110004dc2ce0/portfolios/8830145e-d1d8-47d1-9831-8721edc4dc9d/0l71IEnpUihXQDaI.png"
+                class="img1" width="500px" height="500px">
+        </div>
+    </div>
+    <div class="grid2">
+        <div class="item9">
+            <img src="https://storage.googleapis.com/uxfolio/5bcd0d4b5081110004dc2ce0/5c041a02b66f880004b8e4c2/KJXpLgs4HeWdAcTj.png"
+                class="img2" width="700px" height="700px">
+        </div>
+        <div class="item10">
+            Payment
+            <br>
+            Estimator
+            <br>
+            <p id="ab">
+                Feature Redesign, UX Research, User testing,UI Design
+            </p>
+        </div>
+    </div>
+    <div class="grid3">
+        <div class="item12">
+            Sign
+            <br>
+            Contracts
+            <br>
+            <p id="cd">
+                UX Research, User Testing, UI Design
+            </p>
+        </div>
+        <div class="item13">
+            <img src="https://storage.googleapis.com/uxfolio/5bcd0d4b5081110004dc2ce0/5c05d6005f7e470004430771/KAgCv3SJnWyStACq.png"
+                class="img3" width="700px" height="700px">
+        </div>
+
+    </div>
+    <div class="grid4">
+        <div class="item14">
+            <img src="https://storage.googleapis.com/uxfolio/5bcd0d4b5081110004dc2ce0/5c041aa2b66f880004b8e4c3/92ZDYgCsZwChngd5.png"
+                class="img4" width="700px" height="700px">
+        </div>
+        <div class="item15">
+            Store
+            <br>
+            Locator
+            <br>
+            <p id="ef">
+                 UX Research, User testing
+            </p>
+        </div>
+    </div>
+    <div class="grid5">
+        <div class="item16">
+            Login/Sign up
+            <br>
+            Screens
+            <br>
+            <p id="gh">
+                Feature Redesign, UX Research, User Testing, UI Design
+            </p>
+        </div>
+        <div class="item17">
+            <img src="https://storage.googleapis.com/uxfolio/5bcd0d4b5081110004dc2ce0/5c1a918c50264400043322e7/zjVuH9QYI2MXqj6b.png"
+                class="img5" width="700px" height="700px">
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="height: 200px; width: 200px; background-color: red;" id="div1" onmouseover="mouse_over()" onmouseout="mouse_out()">
+        <p id="text">hello</p> 
+
+    </div>
+    <script>
+        function mouse_over(){
+            document.getElementById('div1').style.backgroundColor='blue'
+            document.getElementById('text').innerHTML='hi'
+        }
+        function mouse_out(){
+            document.getElementById('div1').style.backgroundColor='red'
+            document.getElementById('text').innerHTML='hello'
+        }
+    </script>
+</body>
+</html>

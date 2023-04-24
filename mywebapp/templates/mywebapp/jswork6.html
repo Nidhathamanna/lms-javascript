@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select name="select fruits" id="a">
+        <option value="select fruits">
+            select fruits
+        </option>
+        <option value="apple">
+            apple
+        </option>
+        <option value="orange">
+            orange
+        </option>
+        <option value="banana">
+            banana
+        </option>
+        <option value="kiwi">
+            kiwi
+        </option>
+        <option value="grapes">
+            grapes
+        </option>
+    </select>
+    <button onclick="dlt()">
+        delete
+    </button>
+    <span>old array</span><span id="old"></span><br>
+    <span>new array</span><span id="new"></span><br>
+    <span id="error"></span>
+
+    <script>
+        function dlt(){
+            var fruits=['apple','orange','banana']
+            document.getElementById('old').innerHTML=fruits
+            var selected_fruit= document.getElementById('a').value
+            var flag=0
+            for(i=0;i<fruits.length;i++){
+                if(selected_fruit==fruits[i]){
+                    delete fruits[i]
+                    flag=0
+                    break
+                }
+                else{
+                    flag=1
+                }
+            }
+            if (flag==0){
+                console.log(fruits)
+            }
+            else{
+                document.getElementById('error').innerHTML='fruit is not present'
+            }
+            document.getElementById('new').innerHTML=fruits
+        }
+
+        
+    </script>
+</body>
+</html>
